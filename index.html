@@ -2,17 +2,28 @@
 <html lang="en">
     <head>
         <title>Google Search</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+    
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-        <div>
+        <div class="nav"><a href="image.html">
             Image Search
-        </div>
-        <div>
+        </a></div>
+
+        <div class="nav"><a href="advanced.html">
             Advanced Search
-        </div>
+        </a></div>
+
+        <picture class = "logo">
+            <img alt="Google Logo" height="200" src="logo.gif">
+        </picture>
+
+        <form width="400" action="https://google.com/search">
+            <input class="search_bar" type="text" name="q">
+            <div class = "search_buttons" action="https://google.com/search">
+                <input class="search_button" type="submit" value="Google Search">
+                <input class="search_button" type="submit" name="btnI" value="I'm Feeling Lucky">
+            </div>
+        </form>
     </body>
 </html>
