@@ -54,6 +54,14 @@
     margin-left: 25px;
 }
 
+.adv_p {
+    display: inline-block;
+    padding: 15px;
+    margin-left: 25px;
+    align-items: center;
+    font-size: 13px;
+}
+
 .logo {
     margin: 5px;
     display: flex;
